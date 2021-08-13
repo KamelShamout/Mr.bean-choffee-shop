@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding :0;
+    font-family: serif;
+    background: #444444;
+
+}
+
+/*--BANNER----*/
+
+#banner .banner-img{
+    background: url("../images/shop.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+width: 100%;
+height: 75%;
+}
+
+/*---WELCOME--*/
+#welcome{
+    position: relative;
+    padding-top: 70px;
+    margin-left: 300px;
+    margin-bottom: 70px;
+}
+#welcome .title{
+text-align: center;
+font-size: 70px;
+color: rgb(194, 152, 47);
+padding-bottom: 40px;
+
+}
+
+#welcome .descrption .sub-title{
+    font-size: 15px;
+    color: #835d28;
+     margin-left: 30px;
+    }
+#welcome hr{
+    
+    border: 0;
+    height: 1px;
+    background: #835d28;
+    width: 45%;
+    margin-bottom: 100px;
+}
+
+#welcome p{
+    font-size: 14px;
+    width: 70%;
+    color: white;
+    margin-bottom: 70px;
+    text-align: left;
+}
+#welcome .descrption h3{
+    text-align: left;
+    color: rgb(196, 151, 151);
+    padding: 10px;
+}
+#welcome .descrption{
+position: relative;
+left: 10%;
+    width: 90%;
+    text-align: center;
+
+}
+#welcome .shop{
+    display: flex;
+    justify-content: space-evenly;
+}
+#welcome .shop img{
+    width: 400px;
+    height: 400px;
+}
+
+@media screen and  (max-width:770px){
+   
+   #welcome{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    display: block;
+   }
+   #welcome .descrption,#welcome p{
+    margin:0;
+    padding: 0;
+    width: 100%; 
+    left: 0;
+   }
+   #welcome .shop{
+    display: block;
+    text-align: center;
+
+}
+#welcome .shop img{
+    padding: 10px;
+    
+}
+#welcome .descrption .sub-title{
+    margin:0;
+    }
+    #welcome .title{
+        font-size: 20px;
+    }
+    #welcome .shop img{
+        width: 250px;
+        height: 250px;
+    }
+}

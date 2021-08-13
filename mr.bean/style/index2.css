@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding :0;
+    font-family: 'Times New Roman', Times, serif;
+    color: lavender;
+    font-size: 25px;
+}
+body{
+    background: black;
+
+}
+
+/*--BANNER----*/
+
+#banner .banner-img{
+margin-left: 300px;
+opacity: 0.5;
+
+}
+#banner .banner-img img{
+    width: 1219px;
+position: fixed;    
+    }
+    #banner .banner-img h1{
+        position: relative;
+    position: fixed;    
+    top: 40%;
+    left: 25%;
+    background:none;
+    color: black;
+    font-size: 60px;
+    backdrop-filter: blur(2px);
+        }
+
+/*---WELCOME--*/
+#welcome{
+    padding-top: 250px;
+    top: 0;
+    position: relative;
+    margin-left: 300px;
+    margin-bottom: 70px;
+    backdrop-filter: blur(4px);
+
+}
+#welcome .title{
+text-align: center;
+font-size: 60px;
+color: rgb(194, 152, 47);
+padding-bottom: 40px;
+font-family: 'Pacifico', cursive;
+}
+
+#welcome .descrption .sub-title{
+    font-size: 15px;
+    color: rgb(194, 152, 47);
+    margin-left: 30px;
+    }
+#welcome hr{
+    
+    border: 0;
+    height: 1px;
+    background: rgb(194, 152, 47);
+    width: 45%;
+    margin-bottom: 26px;
+}
+
+#welcome p{
+    font-size: 14px;
+    width: 70%;
+    margin-bottom: 70px;
+    text-align: left;
+}
+#welcome .descrption h3{
+    text-align: left;
+    color: rgb(196, 151, 151);
+    padding: 10px;
+}
+#welcome .descrption{
+position: relative;
+left: 10%;
+    width: 90%;
+    text-align: center;
+
+}
+#welcome .shop{
+    padding-left: 131px;
+        display: flex;
+}
+#welcome .shop h3{
+    color: rgb(194, 152, 47);
+
+}
+#welcome .second{
+   margin-top: 70px;
+   padding-left: 0;
+   margin-left: 30px;
+    margin-right: 30px;
+}
+#welcome .shop .box-1 {
+    background: rgb(37, 28, 28);
+padding: 10px;
+}
+#welcome .shop .box-1 p{
+    width: 100%;
+
+}
+#welcome .shop p{
+    font-size: 17px;
+    margin-right: 0ch;
+    margin-bottom: 13px;
+    text-align: left;
+}
+#welcome .shop img{
+    width: 425;
+    height: 431px;
+}
+
+@media screen and  (max-width:770px){
+   
+    #welcome{
+     margin:0;
+     padding: 0;
+     width: 100%;
+     display: block;
+    }
+    #welcome .descrption,#welcome p{
+     margin:0;
+     padding: 0;
+     width: 100%; 
+     left: 0;
+    }
+    #welcome .shop{
+     display: block;
+     text-align: center;
+ padding-left: 0;
+ }
+ #welcome .shop img{
+     padding: 10px;
+     
+ }
+ #welcome .descrption .sub-title{
+     margin:0;
+     }
+     #welcome .title{
+         font-size: 20px;
+     }
+     #welcome .shop img{
+         width: 250px;
+         height: 250px;
+     }
+ }
